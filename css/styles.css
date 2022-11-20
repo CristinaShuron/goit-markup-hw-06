@@ -30,7 +30,7 @@ p {
 }
 
 .header-list {
-  display: flex; /***ставить елемент ul в один рядок***/
+  display: flex;
 }
 
 /* знімає крапки */
@@ -519,6 +519,7 @@ p {
 
 .footer-block {
   display: flex;
+  width: 250px;
 }
 
 .footer-icons {
@@ -552,6 +553,9 @@ p {
   height: 22px;
   fill: #ffffff;
 }
+ .box {
+  width: 231px;
+ }
 
 .maps {
   font-weight: 400;
@@ -616,6 +620,7 @@ p {
 .block-two {
   padding-top: 72px;
   padding-left: 93px;
+  margin-right: 12px;
 }
 .e-mail {
   font-weight: 700;
@@ -648,21 +653,26 @@ p {
 .block-three {
   position: relative;
   margin-top: 119px;
-  margin-right: 90px;
 }
+
 .footer-button {
+  width: 200px;
+  height: 50px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: #ffffff;
-  width: 200px;
-  height: 50px;
+
+   cursor: pointer;
+  border-color: #2196f3;
+  border-radius: 4px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   padding: 10px 62px 10px 28px;
 }
+
 .button-icon {
   position: absolute;
   right: 30px;
@@ -1059,18 +1069,9 @@ p {
 .modal-input:focus + .input-icon,
 .modal-input:hover + .input-icon {
   fill: #2196f3;
-}
-.modal-input:active {
-  border: 1px solid #2196f3;
+  border-input : 1px solid #2196f3;
 }
 
-.modal-input:focus,
-.modal-input:hover {
-  border: 1px solid #2196f3;
-}
-.modal-textarea:active {
-  border: 1px solid #2196f3;
-}
 .modal-textarea:focus,
 .modal-textarea:hover {
   border: 1px solid #2196f3;
